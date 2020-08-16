@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MAD12</string>
+    <string name="next">Next</string>
+    <string name="select_date">Select Date :</string>
+    <string name="select_time">Select Time</string>
+    <string name="suvi_shenali">Suvi Shenali</string>
+    <string name="a_seosonal_professional">A seosonal professional</string>
+    <string name="rushini_virun">Rushini Virun</string>
+    <string name="newbie">Newbie</string>
+    <string name="chathu_aben">CHATHU ABEN</string>
+    <string name="retron_chic">Retron Chic</string>
+    <string name="your_booking_is_successfully_sheduled">Your Booking is successfully sheduled..</string>
+    <string name="delete_booking">Delete Booking</string>
+    <string name="change_time">Change Time</string>
+    <string name="change_date">Change Date</string>
+    <string name="thanks_for_join_with_us">Thanks for join with us!</string>
+    <string name="todo">TODO</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cansel">Cansel</string>
+    <string name="delete">Delete</string>
+    <string name="do_you_really_want_to_delete_the_booking_this_process_cannot_be_undone">Do you really want to delete the booking?. This process cannot be undone</string>
+    <string name="a_seasonal_professional" />
+
+</resources>
