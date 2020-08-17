@@ -11,6 +11,7 @@
         android:id="@+id/textView8"
         android:layout_width="279dp"
         android:layout_height="79dp"
+        android:background="#DAE589EF"
         android:text="@string/are_you_sure"
         android:textAlignment="center"
         android:textSize="36sp"
@@ -25,13 +26,13 @@
         android:id="@+id/imageView5"
         android:layout_width="121dp"
         android:layout_height="87dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.823"
-        app:srcCompat="@drawable/cross"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/cross" />
 
     <TextView
         android:id="@+id/textView9"
@@ -51,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
+        android:background="#D2505ED1"
         android:text="@string/cansel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +64,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
+        android:background="#D2505ED1"
         android:text="@string/delete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.705" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="120dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/back" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
